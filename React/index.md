@@ -44,13 +44,38 @@ Q-what is npx
 
   <!-- what is react components 
   React component is the part of user inerfaces.
-   our application has five components.header,sidenav,main,footer.and the  one root componet contain every other componet.and root component usually named as app componet in your application.
+   our application has five components.header,sidenav,main content,footer.and the  one root componet contain every other componet.and root component usually named as app componet in your application.
    each of the for is nested component describe only a part of the user interface.
    all components make together to make entire components.
    components are also  resuable the same components can be used with diffrent properties to display diffrent information
-   components can also contain the other componets.
-   like side nav can contain the rit side nav.
+   components can also contain the other componets. example
+   like side nav can contain the rit side nav and also the left side nav.
   
+  Q1- HOW does a component translate the code in our application???
+  -=>1- The component code usually placed into javascript files.example-app component pkaced in app.js
+    2- A comopent besically a code into a js files.what does the code look like that's depend on the type of the component.more complex the application more the number of components.
+    ///In react we have two component type
+    1-A stateless Functional Component. -
+    2-A statefull class componet.
+
+
+ 1-A stateless Functional Component. => A functional componet literally a javascript functions.its return HTML thats describe the UI.
+ its accept the input of props(properties) and return a html that describes the UI.
+  
+  2-A statefull class componet=> its  is regular ES6 classes that extend the component class from the react library.its must contain the render method which in return HTMl.
+
+  -->
+  <!-- Advantage use of functional component over class component
+  1- 1st advantage of using functional componet over  class componnet 
+   is the absence of 'this' keyword which you will encounter in a class based componet.
+
+  2-we can forced to think for solution without having state.functional component tent to do without any complicated logic and mainly responsible for the user interface,this is why functional componet are also called stateless components/Dumb component/Presentational componet.
+
+-->
+  <!-- Claass componet over functional componet -->
+  <!-- 1-its a bit more feature rich
+  2-they maintain thire own private data its also called state
+  3- They contain compicated UI logic and most importantly  they provide life cycle hooks.
+  class componet also called statefull/Smart/Container componets.
   
   -->
-  
